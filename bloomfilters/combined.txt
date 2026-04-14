@@ -1,0 +1,113 @@
+above
+across from
+address
+apartment
+around
+avenue
+bachelor
+basement
+behind
+below
+between
+block
+boulevard
+building
+bungalow
+cabin
+campground
+city
+close to
+condo
+corner
+cottage
+country
+court
+crescent
+crossroads
+door
+downstairs
+drive
+driveway
+duplex
+dwelling
+east
+entrance
+estate
+exit
+factory
+far from
+farm
+floor
+garage
+gate
+geofence
+geotag
+ground
+hall
+highway
+home
+hotel
+house
+in front of
+inn
+inside
+intersection
+junction
+lane
+latitude
+loading dock
+longitude
+lot
+mews
+mile marker
+mobile home
+motel
+near
+next to
+north
+northeast
+northwest
+office
+opposite
+outside
+parking
+parkway
+past
+place
+plantation
+po box
+porch
+postal code
+province
+quadplex
+ranch
+receiving
+region
+residence
+restaurant
+retail
+road
+room
+route
+rv park
+shipping
+shop
+south
+southeast
+southwest
+steps
+stoop
+store
+street
+suburb
+suite
+townhouse
+trailer park
+triplex
+unit
+upstairs
+villa
+warehouse
+west
+window
+zip code
