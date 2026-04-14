@@ -88,6 +88,9 @@ def create_app(filters_dir: Path) -> Flask:
             f"Unable to load bloom filters from {filters_dir}. Ensure .poppy files exist and poppy is installed."
         ) from exc
 
+    def normalize_query_text(value: str | None) -> str:
+        return (value or "").strip().lower()
+
     @app.get("/health")
     def health() -> Any:
         return jsonify({"status": "ok", "filter_count": len(bloom_index.filters)})
@@ -103,8 +106,8 @@ def create_app(filters_dir: Path) -> Flask:
 
     @app.get("/api/query")
     def query_filter() -> Any:
-        topic = (request.args.get("topic") or "").strip()
-        filter_name = request.args.get("filter")
+        topic = normalize_query_text(request.args.get("topic"))
+        filter_name = normalize_query_text(request.args.get("filter")) or None
 
         if not topic:
             return jsonify({"error": "Missing required query parameter: topic"}), 400
@@ -124,7 +127,7 @@ def create_app(filters_dir: Path) -> Flask:
     @app.post("/api/query")
     def query_filters_bulk() -> Any:
         payload = request.get_json(silent=True) or {}
-        topic = str(payload.get("topic", "")).strip()
+        topic = normalize_query_text(str(payload.get("topic", "")))
         requested = payload.get("filters")
 
         if not topic:
@@ -134,6 +137,7 @@ def create_app(filters_dir: Path) -> Flask:
         if requested is not None:
             if not isinstance(requested, list) or any(not isinstance(name, str) for name in requested):
                 return jsonify({"error": "'filters' must be an array of strings"}), 400
+            requested = [normalize_query_text(name) for name in requested]
             missing = sorted(name for name in requested if name not in bloom_index.filters)
             if missing:
                 return jsonify({"error": "Unknown filters", "unknown_filters": missing}), 404
