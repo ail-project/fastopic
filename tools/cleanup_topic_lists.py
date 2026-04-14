@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 def normalize_lines(text: str) -> list[str]:
-    lines = [line.strip() for line in text.splitlines()]
+    lines = [line.strip().lower() for line in text.splitlines()]
     lines = [line for line in lines if line]
     unique_lines = sorted(set(lines), key=lambda value: value.casefold())
     return unique_lines
