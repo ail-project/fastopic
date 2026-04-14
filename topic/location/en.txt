@@ -1,113 +1,279 @@
 above
+across
 across from
 address
+adjacent to
+airport
+alley
+along
+altitude
 apartment
+archipelago
+area
 around
+at
 avenue
-bachelor
+away from
+backyard
 basement
+bay
+beach
 behind
 below
+beneath
+beside
 between
 block
+block number
+borough
 boulevard
+boundary
+bridge
 building
 bungalow
+bus stop
+by
 cabin
+camp
 campground
+campus
+canal
+capital
+car park
+cardinal direction
+cemetery
+center
+central
+centre
+checkpoint
 city
+city center
+city centre
 close to
+coast
+coastal
+colony
+complex
 condo
+continent
+coordinate
+coordinates
 corner
 cottage
 country
+county
 court
-crescent
+courtyard
+crossing
 crossroads
+cul-de-sac
+district
 door
+dorm
+downtown
 downstairs
 drive
 driveway
 duplex
 dwelling
 east
+eastern
+edge
+elevation
+embassy
 entrance
+environment
 estate
 exit
-factory
 far from
 farm
+field
 floor
+forest
+fort
+from
+front
 garage
 gate
+geo
+geo coordinate
+geocode
+geocoded
+geocoding
 geofence
+geofencing
+geographic
+geographical
+geography
+geolocation
+geolocate
+geolocated
+geolocating
+geomap
+geospatial
 geotag
+geotagged
+global position
+global positioning
+global positioning system
+gps
+grid reference
 ground
-hall
+hamlet
+harbor
+harbour
+headquarters
 highway
+hill
+hinterland
 home
+hospital
+hostel
 hotel
 house
+housing
+in
 in front of
-inn
 inside
 intersection
+island
+islet
 junction
+kingdom
+landmark
 lane
 latitude
-loading dock
+left of
+locality
+locate
+located
+location
+locator
+locale
 longitude
 lot
+mansion
+map
+mapping
+market
 mews
+metropolitan
 mile marker
 mobile home
 motel
+motorway
+mount
+mountain
+municipality
 near
+nearby
+neighborhood
+neighbourhood
 next to
 north
 northeast
+northern
 northwest
+ocean
 office
+offshore
+on
+onsite
+on-site
 opposite
 outside
+over
+park
 parking
 parkway
 past
+path
 place
-plantation
+planet
+plateau
+plaza
 po box
+point
 porch
+position
+positioning
+postcode
 postal code
+premises
 province
 quadplex
 ranch
-receiving
 region
+regional
+remote
 residence
-restaurant
-retail
+residential
+resort
+right of
+river
 road
-room
 route
+rural
 rv park
-shipping
-shop
+satnav
+satellite
+school
+sea
+seaport
+sector
+shipping address
+site
+situated
 south
 southeast
+southern
 southwest
+space
+spot
+square
+state
+station
+step away from
 steps
 stoop
-store
 street
+subdivision
 suburb
+suburban
 suite
+surrounding
+tenant
+tenement
+territory
+theatre district
+to
+top
+town
+town center
+town centre
+township
 townhouse
 trailer park
+trailhead
 triplex
+under
+underneath
 unit
+university
 upstairs
+urban
+village
+vicinity
 villa
 warehouse
+waterfront
+way
 west
-window
+western
+whereabouts
+within
+without
+world
+yard
 zip code
+zone
