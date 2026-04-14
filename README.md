@@ -29,7 +29,10 @@ fastopic/
 ├── server.py                        # Flask API for querying bloom filters
 ├── requirements.txt                 # Runtime dependencies
 ├── topic/                           # Source topic lists (.txt)
-│   └── location/
+│   ├── location/
+│   │   ├── en.txt
+│   │   └── fr.txt
+│   └── country/
 │       ├── en.txt
 │       └── fr.txt
 ├── tools/
@@ -119,6 +122,7 @@ Response example:
   "source_dir": "bloomfilters",
   "filters": [
     "combined",
+    "country/en",
     "location/en",
     "location/fr"
   ]
