@@ -136,6 +136,37 @@ Query membership for one topic.
 - `topic` (required)
 - `filter` (optional). If omitted, queries all filters.
 
+### `POST /api/query-text`
+
+Extract words from a full input text (regex tokenizer), test each token against one or more Bloom filters, and return occurrence counts per filter plus a ranked top list.
+
+JSON body:
+
+- `text` (required): full text to analyze
+- `filters` (optional): list of filter names to restrict matching
+- `top_n` (optional, default `10`): number of top filters to include
+
+Response example:
+
+```json
+{
+  "text": "Paris is in France and Paris has cafes.",
+  "token_count": 8,
+  "unique_token_count": 7,
+  "analyzed_filters": ["combined", "country/en", "location/en"],
+  "filter_counts": {
+    "combined": 3,
+    "country/en": 1,
+    "location/en": 2
+  },
+  "top_filters": [
+    {"filter": "combined", "count": 3},
+    {"filter": "location/en", "count": 2},
+    {"filter": "country/en", "count": 1}
+  ]
+}
+```
+
 ## curl examples (API use cases)
 
 ### Health check
@@ -174,6 +205,15 @@ curl -s -X POST \
   -H "Content-Type: application/json" \
   -d '{"topic":"paris","filters":["location/en","location/fr"]}' \
   http://127.0.0.1:5000/api/query | jq
+```
+
+### Query complete text and rank matching filters
+
+```bash
+curl -s -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"text":"Paris is in France and Paris has cafes","top_n":5}' \
+  http://127.0.0.1:5000/api/query-text | jq
 ```
 
 ### Error example: missing topic
