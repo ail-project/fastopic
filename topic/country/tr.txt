@@ -1,249 +1,249 @@
-ABD Küçük Harici Adaları
-ABD Virjin Adaları
-Afganistan
-Almanya
-Amerika Birleşik Devletleri
-Amerikan Samoası
-Andorra
-Angola
-Anguilla
-Antarktika
-Antigua ve Barbuda
-Arjantin
-Arnavutluk
-Aruba
-Avustralya
-Avusturya
-Azerbaycan
-Bahamalar
-Bahreyn
-Bangladeş
-Barbados
-Batı Sahra
-Belarus
-Belize
-Belçika
-Benin
-Bermuda
-Birleşik Arap Emirlikleri
-Birleşik Krallık
-Bolivya
-Bosna-Hersek
-Botsvana
-Bouvet Adası
-Brezilya
-Britanya Hint Okyanusu Toprakları
-Britanya Virjin Adaları
-Brunei
-Bulgaristan
-Burkina Faso
-Burundi
-Butan
-Cabo Verde
-Cayman Adaları
-Cebelitarık
-Cezayir
-Christmas Adası
-Cibuti
-Cocos (Keeling) Adaları
-Cook Adaları
-Curaçao
-Côte d’Ivoire
-Danimarka
-Dominik Cumhuriyeti
-Dominika
-Ekvador
-Ekvator Ginesi
-El Salvador
-Endonezya
-Eritre
-Ermenistan
-Estonya
-Esvatini
-Etiyopya
-Falkland Adaları
-Faroe Adaları
-Fas
-Fiji
-Filipinler
-Filistin Bölgeleri
-Finlandiya
-Fransa
-Fransız Guyanası
-Fransız Güney Toprakları
-Fransız Polinezyası
-Gabon
-Gambiya
-Gana
-Gine
-Gine-Bissau
-Grenada
-Grönland
-Guadeloupe
-Guam
-Guatemala
-Guernsey
-Guyana
-Güney Afrika
-Güney Georgia ve Güney Sandwich Adaları
-Güney Kore
-Güney Sudan
-Gürcistan
-Haiti
-Heard Adası ve McDonald Adaları
-Hindistan
-Hollanda
-Honduras
-Hırvatistan
-Irak
-İran
-İrlanda
-İspanya
-İsrail
-İsveç
-İsviçre
-İtalya
-İzlanda
-Jamaika
-Japonya
-Jersey
-Kamboçya
-Kamerun
-Kanada
-Karadağ
-Karayip Hollandası
-Katar
-Kazakistan
-Kenya
-Kiribati
-Kolombiya
-Komorlar
-Kongo - Brazavil
-Kongo - Kinşasa
-Kosta Rika
-Kuveyt
-Kuzey Kore
-Kuzey Makedonya
-Kuzey Mariana Adaları
-Küba
-Kıbrıs
-Kırgızistan
-Laos
-Lesotho
-Letonya
-Liberya
-Libya
-Liechtenstein
-Litvanya
-Lübnan
-Lüksemburg
-Macaristan
-Madagaskar
-Malavi
-Maldivler
-Malezya
-Mali
-Malta
-Man Adası
-Marshall Adaları
-Martinik
-Mauritius
-Mayotte
-Meksika
-Mikronezya
-Moldova
-Monako
-Montserrat
-Moritanya
-Mozambik
-Moğolistan
-Myanmar (Burma)
-Mısır
-Namibya
-Nauru
-Nepal
-Nijer
-Nijerya
-Nikaragua
-Niue
-Norfolk Adası
-Norveç
-Orta Afrika Cumhuriyeti
-Pakistan
-Palau
-Panama
-Papua Yeni Gine
-Paraguay
-Peru
-Pitcairn Adaları
-Polonya
-Portekiz
-Porto Riko
-Reunion
-Romanya
-Ruanda
-Rusya
-Saint Barthelemy
-Saint Helena
-Saint Kitts ve Nevis
-Saint Lucia
-Saint Martin
-Saint Pierre ve Miquelon
-Saint Vincent ve Grenadinler
-Samoa
-San Marino
-Sao Tome ve Principe
-Senegal
-Seyşeller
-Sierra Leone
-Singapur
-Sint Maarten
-Slovakya
-Slovenya
-Solomon Adaları
-Somali
-Sri Lanka
-Sudan
-Surinam
-Suriye
-Suudi Arabistan
-Svalbard ve Jan Mayen
-Sırbistan
-Tacikistan
-Tanzanya
-Tayland
-Tayvan
-Timor-Leste
-Togo
-Tokelau
-Tonga
-Trinidad ve Tobago
-Tunus
-Turks ve Caicos Adaları
-Tuvalu
-Türkiye
-Türkmenistan
-Uganda
-Ukrayna
-Umman
-Uruguay
-Vanuatu
-Vatikan
-Venezuela
-Vietnam
-Wallis ve Futuna
-Yemen
-Yeni Kaledonya
-Yeni Zelanda
-Yunanistan
-Zambiya
-Zimbabve
-Åland Adaları
-Çad
-Çekya
-Çin
-Çin Hong Kong ÖİB
-Çin Makao ÖİB
-Özbekistan
-Ürdün
-Şili
+abd küçük harici adaları
+abd virjin adaları
+afganistan
+almanya
+amerika birleşik devletleri
+amerikan samoası
+andorra
+angola
+anguilla
+antarktika
+antigua ve barbuda
+arjantin
+arnavutluk
+aruba
+avustralya
+avusturya
+azerbaycan
+bahamalar
+bahreyn
+bangladeş
+barbados
+batı sahra
+belarus
+belize
+belçika
+benin
+bermuda
+birleşik arap emirlikleri
+birleşik krallık
+bolivya
+bosna-hersek
+botsvana
+bouvet adası
+brezilya
+britanya hint okyanusu toprakları
+britanya virjin adaları
+brunei
+bulgaristan
+burkina faso
+burundi
+butan
+cabo verde
+cayman adaları
+cebelitarık
+cezayir
+christmas adası
+cibuti
+cocos (keeling) adaları
+cook adaları
+curaçao
+côte d’ivoire
+danimarka
+dominik cumhuriyeti
+dominika
+ekvador
+ekvator ginesi
+el salvador
+endonezya
+eritre
+ermenistan
+estonya
+esvatini
+etiyopya
+falkland adaları
+faroe adaları
+fas
+fiji
+filipinler
+filistin bölgeleri
+finlandiya
+fransa
+fransız guyanası
+fransız güney toprakları
+fransız polinezyası
+gabon
+gambiya
+gana
+gine
+gine-bissau
+grenada
+grönland
+guadeloupe
+guam
+guatemala
+guernsey
+guyana
+güney afrika
+güney georgia ve güney sandwich adaları
+güney kore
+güney sudan
+gürcistan
+haiti
+heard adası ve mcdonald adaları
+hindistan
+hollanda
+honduras
+hırvatistan
+irak
+i̇ran
+i̇rlanda
+i̇spanya
+i̇srail
+i̇sveç
+i̇sviçre
+i̇talya
+i̇zlanda
+jamaika
+japonya
+jersey
+kamboçya
+kamerun
+kanada
+karadağ
+karayip hollandası
+katar
+kazakistan
+kenya
+kiribati
+kolombiya
+komorlar
+kongo - brazavil
+kongo - kinşasa
+kosta rika
+kuveyt
+kuzey kore
+kuzey makedonya
+kuzey mariana adaları
+küba
+kıbrıs
+kırgızistan
+laos
+lesotho
+letonya
+liberya
+libya
+liechtenstein
+litvanya
+lübnan
+lüksemburg
+macaristan
+madagaskar
+malavi
+maldivler
+malezya
+mali
+malta
+man adası
+marshall adaları
+martinik
+mauritius
+mayotte
+meksika
+mikronezya
+moldova
+monako
+montserrat
+moritanya
+mozambik
+moğolistan
+myanmar (burma)
+mısır
+namibya
+nauru
+nepal
+nijer
+nijerya
+nikaragua
+niue
+norfolk adası
+norveç
+orta afrika cumhuriyeti
+pakistan
+palau
+panama
+papua yeni gine
+paraguay
+peru
+pitcairn adaları
+polonya
+portekiz
+porto riko
+reunion
+romanya
+ruanda
+rusya
+saint barthelemy
+saint helena
+saint kitts ve nevis
+saint lucia
+saint martin
+saint pierre ve miquelon
+saint vincent ve grenadinler
+samoa
+san marino
+sao tome ve principe
+senegal
+seyşeller
+sierra leone
+singapur
+sint maarten
+slovakya
+slovenya
+solomon adaları
+somali
+sri lanka
+sudan
+surinam
+suriye
+suudi arabistan
+svalbard ve jan mayen
+sırbistan
+tacikistan
+tanzanya
+tayland
+tayvan
+timor-leste
+togo
+tokelau
+tonga
+trinidad ve tobago
+tunus
+turks ve caicos adaları
+tuvalu
+türkiye
+türkmenistan
+uganda
+ukrayna
+umman
+uruguay
+vanuatu
+vatikan
+venezuela
+vietnam
+wallis ve futuna
+yemen
+yeni kaledonya
+yeni zelanda
+yunanistan
+zambiya
+zimbabve
+åland adaları
+çad
+çekya
+çin
+çin hong kong öi̇b
+çin makao öi̇b
+özbekistan
+ürdün
+şili

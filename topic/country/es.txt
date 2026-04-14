@@ -1,249 +1,249 @@
-Afganistán
-Albania
-Alemania
-Andorra
-Angola
-Anguila
-Antigua y Barbuda
-Antártida
-Arabia Saudí
-Argelia
-Argentina
-Armenia
-Aruba
-Australia
-Austria
-Azerbaiyán
-Bahamas
-Bangladés
-Barbados
-Baréin
-Belice
-Benín
-Bermudas
-Bielorrusia
-Bolivia
-Bosnia y Herzegovina
-Botsuana
-Brasil
-Brunéi
-Bulgaria
-Burkina Faso
-Burundi
-Bután
-Bélgica
-Cabo Verde
-Camboya
-Camerún
-Canadá
-Caribe neerlandés
-Catar
-Chad
-Chequia
-Chile
-China
-Chipre
-Ciudad del Vaticano
-Colombia
-Comoras
-Congo
-Corea del Norte
-Corea del Sur
-Costa Rica
-Croacia
-Cuba
-Curazao
-Côte d’Ivoire
-Dinamarca
-Dominica
-Ecuador
-Egipto
-El Salvador
-Emiratos Árabes Unidos
-Eritrea
-Eslovaquia
-Eslovenia
-España
-Estados Unidos
-Estonia
-Esuatini
-Etiopía
-Filipinas
-Finlandia
-Fiyi
-Francia
-Gabón
-Gambia
-Georgia
-Ghana
-Gibraltar
-Granada
-Grecia
-Groenlandia
-Guadalupe
-Guam
-Guatemala
-Guayana Francesa
-Guernesey
-Guinea
-Guinea Ecuatorial
-Guinea-Bisáu
-Guyana
-Haití
-Honduras
-Hungría
-India
-Indonesia
-Irak
-Irlanda
-Irán
-Isla Bouvet
-Isla de Man
-Isla de Navidad
-Isla Norfolk
-Islandia
-Islas Aland
-Islas Caimán
-Islas Cocos
-Islas Cook
-Islas Feroe
-Islas Georgia del Sur y Sandwich del Sur
-Islas Heard y McDonald
-Islas Malvinas
-Islas Marianas del Norte
-Islas Marshall
-Islas menores alejadas de EE. UU.
-Islas Pitcairn
-Islas Salomón
-Islas Turcas y Caicos
-Islas Vírgenes Británicas
-Islas Vírgenes de EE. UU.
-Israel
-Italia
-Jamaica
-Japón
-Jersey
-Jordania
-Kazajistán
-Kenia
-Kirguistán
-Kiribati
-Kuwait
-Laos
-Lesoto
-Letonia
-Liberia
-Libia
-Liechtenstein
-Lituania
-Luxemburgo
-Líbano
-Macedonia del Norte
-Madagascar
-Malasia
-Malaui
-Maldivas
-Mali
-Malta
-Marruecos
-Martinica
-Mauricio
-Mauritania
-Mayotte
-Micronesia
-Moldavia
-Mongolia
-Montenegro
-Montserrat
-Mozambique
-Myanmar (Birmania)
-México
-Mónaco
-Namibia
-Nauru
-Nepal
-Nicaragua
-Nigeria
-Niue
-Noruega
-Nueva Caledonia
-Nueva Zelanda
-Níger
-Omán
-Pakistán
-Palaos
-Panamá
-Papúa Nueva Guinea
-Paraguay
-Países Bajos
-Perú
-Polinesia Francesa
-Polonia
-Portugal
-Puerto Rico
-RAE de Hong Kong (China)
-RAE de Macao (China)
-Reino Unido
-República Centroafricana
-República Democrática del Congo
-República Dominicana
-Reunión
-Ruanda
-Rumanía
-Rusia
-Samoa
-Samoa Americana
-San Bartolomé
-San Cristóbal y Nieves
-San Marino
-San Martín
-San Pedro y Miquelón
-San Vicente y las Granadinas
-Santa Elena
-Santa Lucía
-Santo Tomé y Príncipe
-Senegal
-Serbia
-Seychelles
-Sierra Leona
-Singapur
-Sint Maarten
-Siria
-Somalia
-Sri Lanka
-Sudáfrica
-Sudán
-Sudán del Sur
-Suecia
-Suiza
-Surinam
-Svalbard y Jan Mayen
-Sáhara Occidental
-Tailandia
-Taiwán
-Tanzania
-Tayikistán
-Territorio Británico del Océano Índico
-Territorios Australes Franceses
-Territorios Palestinos
-Timor-Leste
-Togo
-Tokelau
-Tonga
-Trinidad y Tobago
-Turkmenistán
-Turquía
-Tuvalu
-Túnez
-Ucrania
-Uganda
-Uruguay
-Uzbekistán
-Vanuatu
-Venezuela
-Vietnam
-Wallis y Futuna
-Yemen
-Yibuti
-Zambia
-Zimbabue
+afganistán
+albania
+alemania
+andorra
+angola
+anguila
+antigua y barbuda
+antártida
+arabia saudí
+argelia
+argentina
+armenia
+aruba
+australia
+austria
+azerbaiyán
+bahamas
+bangladés
+barbados
+baréin
+belice
+benín
+bermudas
+bielorrusia
+bolivia
+bosnia y herzegovina
+botsuana
+brasil
+brunéi
+bulgaria
+burkina faso
+burundi
+bután
+bélgica
+cabo verde
+camboya
+camerún
+canadá
+caribe neerlandés
+catar
+chad
+chequia
+chile
+china
+chipre
+ciudad del vaticano
+colombia
+comoras
+congo
+corea del norte
+corea del sur
+costa rica
+croacia
+cuba
+curazao
+côte d’ivoire
+dinamarca
+dominica
+ecuador
+egipto
+el salvador
+emiratos árabes unidos
+eritrea
+eslovaquia
+eslovenia
+españa
+estados unidos
+estonia
+esuatini
+etiopía
+filipinas
+finlandia
+fiyi
+francia
+gabón
+gambia
+georgia
+ghana
+gibraltar
+granada
+grecia
+groenlandia
+guadalupe
+guam
+guatemala
+guayana francesa
+guernesey
+guinea
+guinea ecuatorial
+guinea-bisáu
+guyana
+haití
+honduras
+hungría
+india
+indonesia
+irak
+irlanda
+irán
+isla bouvet
+isla de man
+isla de navidad
+isla norfolk
+islandia
+islas aland
+islas caimán
+islas cocos
+islas cook
+islas feroe
+islas georgia del sur y sandwich del sur
+islas heard y mcdonald
+islas malvinas
+islas marianas del norte
+islas marshall
+islas menores alejadas de ee. uu.
+islas pitcairn
+islas salomón
+islas turcas y caicos
+islas vírgenes británicas
+islas vírgenes de ee. uu.
+israel
+italia
+jamaica
+japón
+jersey
+jordania
+kazajistán
+kenia
+kirguistán
+kiribati
+kuwait
+laos
+lesoto
+letonia
+liberia
+libia
+liechtenstein
+lituania
+luxemburgo
+líbano
+macedonia del norte
+madagascar
+malasia
+malaui
+maldivas
+mali
+malta
+marruecos
+martinica
+mauricio
+mauritania
+mayotte
+micronesia
+moldavia
+mongolia
+montenegro
+montserrat
+mozambique
+myanmar (birmania)
+méxico
+mónaco
+namibia
+nauru
+nepal
+nicaragua
+nigeria
+niue
+noruega
+nueva caledonia
+nueva zelanda
+níger
+omán
+pakistán
+palaos
+panamá
+papúa nueva guinea
+paraguay
+países bajos
+perú
+polinesia francesa
+polonia
+portugal
+puerto rico
+rae de hong kong (china)
+rae de macao (china)
+reino unido
+república centroafricana
+república democrática del congo
+república dominicana
+reunión
+ruanda
+rumanía
+rusia
+samoa
+samoa americana
+san bartolomé
+san cristóbal y nieves
+san marino
+san martín
+san pedro y miquelón
+san vicente y las granadinas
+santa elena
+santa lucía
+santo tomé y príncipe
+senegal
+serbia
+seychelles
+sierra leona
+singapur
+sint maarten
+siria
+somalia
+sri lanka
+sudáfrica
+sudán
+sudán del sur
+suecia
+suiza
+surinam
+svalbard y jan mayen
+sáhara occidental
+tailandia
+taiwán
+tanzania
+tayikistán
+territorio británico del océano índico
+territorios australes franceses
+territorios palestinos
+timor-leste
+togo
+tokelau
+tonga
+trinidad y tobago
+turkmenistán
+turquía
+tuvalu
+túnez
+ucrania
+uganda
+uruguay
+uzbekistán
+vanuatu
+venezuela
+vietnam
+wallis y futuna
+yemen
+yibuti
+zambia
+zimbabue

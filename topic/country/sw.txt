@@ -1,249 +1,249 @@
-Afghanistan
-Afrika Kusini
-Aisilandi
-Ajentina
-Albania
-Aljeria
-Andorra
-Angola
-Anguilla
-Antaktiki
-Antigua na Barbuda
-Armenia
-Aruba
-Australia
-Austria
-Ayalandi
-Azerbaijani
-Babadosi
-Bahama
-Bahareni
-Bangladeshi
-Belarus
-Belize
-Benin
-Bermuda
-Bhutan
-Bolivia
-Bosnia na Hezegovina
-Botswana
-Brazil
-Brunei
-Bukinafaso
-Bulgaria
-Burundi
-Cape Verde
-Chad
-Chechia
-Chile
-Cote d’Ivoire
-Croatia
-Curacao
-Denmaki
-Dominika
-Ecuador
-El Salvador
-Eneo la Uingereza katika Bahari Hindi
-Eritrea
-Estonia
-Eswatini
-Ethiopia
-Falme za Kiarabu
-Fiji
-Gabon
-Gambia
-Ghana
-Gibraltar
-Gine
-Ginebisau
-Greenland
-Grenada
-Guadeloupe
-Guam
-Guatemala
-Guernsey
-Guiana ya Ufaransa
-Guinea ya Ikweta
-Guyana
-Haiti
-Himaya za Kusini za Kifaranza
-Honduras
-Hong Kong SAR China
-Hungaria
-India
-Indonesia
-Iraki
-Iran
-Israeli
-Italia
-Jamaika
-Jamhuri ya Afrika ya Kati
-Jamhuri ya Dominika
-Jamhuri ya Kidemokrasia ya Kongo
-Japani
-Jersey
-Jibuti
-Jojia
-Jordan
-Kambodia
-Kameruni
-Kanada
-Kazakistani
-Kenya
-Kiribati
-Kirigizistani
-Kisiwa cha Bouvet
-Kisiwa cha Heard na Visiwa vya McDonald
-Kisiwa cha Krismasi
-Kisiwa cha Man
-Kisiwa cha Norfolk
-Kolombia
-Komoro
-Kongo - Brazzaville
-Korea Kaskazini
-Korea Kusini
-Kostarika
-Kuba
-Kuwait
-Laos
-Latvia
-Lebanon
-Lesoto
-Liberia
-Libya
-Liechtenstein
-Lithuania
-Luxembourg
-Madagaska
-Maeneo ya Palestina
-Makau SAR China
-Malawi
-Maldivi
-Malesia
-Mali
-Malta
-Marekani
-Martinique
-Masedonia ya Kaskazini
-Mayotte
-Meksiko
-Mikronesia
-Misri
-Mji wa Vatican
-Moldova
-Monaco
-Mongolia
-Montenegro
-Montserrat
-Morisi
-Moritania
-Morocco
-Msumbiji
-Myanmar (Burma)
-Namibia
-Nauru
-Nepal
-New Caledonia
-Niger
-Nigeria
-Nikaragwa
-Niue
-Norway
-Nyuzilandi
-Oman
-Pakistani
-Palau
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Poland
-Polynesia ya Ufaransa
-Puerto Rico
-Qatar
-Reunion
-Romania
-Rwanda
-Sahara Magharibi
-Saiprasi
-Samoa
-Samoa ya Marekani
-San Marino
-Santapierre na Miquelon
-Sao Tome na Principe
-Saudia
-Senegali
-Serbia
-Siera Leoni
-Singapore
-Sint Maarten
-Slovakia
-Slovenia
-Somalia
-Sri Lanka
-St. Barthelemy
-St. Helena
-St. Kitts na Nevis
-St. Lucia
-St. Martin
-St. Vincent na Grenadines
-Sudan
-Sudan Kusini
-Suriname
-Svalbard na Jan Mayen
-Syria
-Tailandi
-Taiwan
-Tajikistani
-Tanzania
-Timor-Leste
-Togo
-Tokelau
-Tonga
-Trinidad na Tobago
-Tunisia
-Turkmenistan
-Tuvalu
-Ubelgiji
-Uchina
-Ufalme wa Muungano
-Ufaransa
-Ufilipino
-Ufini
-Uganda
-Ugiriki
-Uhispania
-Uholanzi
-Uholanzi ya Karibiani
-Ujerumani
-Ukraine
-Ureno
-Uruguay
-Urusi
-Ushelisheli
-Uswidi
-Uswisi
-Uturuki
-Uzibekistani
-Vanuatu
-Venezuela
-Vietnamu
-Visiwa Vidogo vya Nje vya Marekani
-Visiwa vya Aland
-Visiwa vya Cayman
-Visiwa vya Cocos (Keeling)
-Visiwa vya Cook
-Visiwa vya Falkland
-Visiwa vya Faroe
-Visiwa vya Georgia Kusini na Sandwich Kusini
-Visiwa vya Mariana vya Kaskazini
-Visiwa vya Marshall
-Visiwa vya Pitcairn
-Visiwa vya Solomon
-Visiwa vya Turks na Caicos
-Visiwa vya Virgin, Marekani
-Visiwa vya Virgin, Uingereza
-Wallis na Futuna
-Yemeni
-Zambia
-Zimbabwe
+afghanistan
+afrika kusini
+aisilandi
+ajentina
+albania
+aljeria
+andorra
+angola
+anguilla
+antaktiki
+antigua na barbuda
+armenia
+aruba
+australia
+austria
+ayalandi
+azerbaijani
+babadosi
+bahama
+bahareni
+bangladeshi
+belarus
+belize
+benin
+bermuda
+bhutan
+bolivia
+bosnia na hezegovina
+botswana
+brazil
+brunei
+bukinafaso
+bulgaria
+burundi
+cape verde
+chad
+chechia
+chile
+cote d’ivoire
+croatia
+curacao
+denmaki
+dominika
+ecuador
+el salvador
+eneo la uingereza katika bahari hindi
+eritrea
+estonia
+eswatini
+ethiopia
+falme za kiarabu
+fiji
+gabon
+gambia
+ghana
+gibraltar
+gine
+ginebisau
+greenland
+grenada
+guadeloupe
+guam
+guatemala
+guernsey
+guiana ya ufaransa
+guinea ya ikweta
+guyana
+haiti
+himaya za kusini za kifaranza
+honduras
+hong kong sar china
+hungaria
+india
+indonesia
+iraki
+iran
+israeli
+italia
+jamaika
+jamhuri ya afrika ya kati
+jamhuri ya dominika
+jamhuri ya kidemokrasia ya kongo
+japani
+jersey
+jibuti
+jojia
+jordan
+kambodia
+kameruni
+kanada
+kazakistani
+kenya
+kiribati
+kirigizistani
+kisiwa cha bouvet
+kisiwa cha heard na visiwa vya mcdonald
+kisiwa cha krismasi
+kisiwa cha man
+kisiwa cha norfolk
+kolombia
+komoro
+kongo - brazzaville
+korea kaskazini
+korea kusini
+kostarika
+kuba
+kuwait
+laos
+latvia
+lebanon
+lesoto
+liberia
+libya
+liechtenstein
+lithuania
+luxembourg
+madagaska
+maeneo ya palestina
+makau sar china
+malawi
+maldivi
+malesia
+mali
+malta
+marekani
+martinique
+masedonia ya kaskazini
+mayotte
+meksiko
+mikronesia
+misri
+mji wa vatican
+moldova
+monaco
+mongolia
+montenegro
+montserrat
+morisi
+moritania
+morocco
+msumbiji
+myanmar (burma)
+namibia
+nauru
+nepal
+new caledonia
+niger
+nigeria
+nikaragwa
+niue
+norway
+nyuzilandi
+oman
+pakistani
+palau
+panama
+papua new guinea
+paraguay
+peru
+poland
+polynesia ya ufaransa
+puerto rico
+qatar
+reunion
+romania
+rwanda
+sahara magharibi
+saiprasi
+samoa
+samoa ya marekani
+san marino
+santapierre na miquelon
+sao tome na principe
+saudia
+senegali
+serbia
+siera leoni
+singapore
+sint maarten
+slovakia
+slovenia
+somalia
+sri lanka
+st. barthelemy
+st. helena
+st. kitts na nevis
+st. lucia
+st. martin
+st. vincent na grenadines
+sudan
+sudan kusini
+suriname
+svalbard na jan mayen
+syria
+tailandi
+taiwan
+tajikistani
+tanzania
+timor-leste
+togo
+tokelau
+tonga
+trinidad na tobago
+tunisia
+turkmenistan
+tuvalu
+ubelgiji
+uchina
+ufalme wa muungano
+ufaransa
+ufilipino
+ufini
+uganda
+ugiriki
+uhispania
+uholanzi
+uholanzi ya karibiani
+ujerumani
+ukraine
+ureno
+uruguay
+urusi
+ushelisheli
+uswidi
+uswisi
+uturuki
+uzibekistani
+vanuatu
+venezuela
+vietnamu
+visiwa vidogo vya nje vya marekani
+visiwa vya aland
+visiwa vya cayman
+visiwa vya cocos (keeling)
+visiwa vya cook
+visiwa vya falkland
+visiwa vya faroe
+visiwa vya georgia kusini na sandwich kusini
+visiwa vya mariana vya kaskazini
+visiwa vya marshall
+visiwa vya pitcairn
+visiwa vya solomon
+visiwa vya turks na caicos
+visiwa vya virgin, marekani
+visiwa vya virgin, uingereza
+wallis na futuna
+yemeni
+zambia
+zimbabwe
