@@ -1,2 +1,2 @@
 flask>=3.0.0
-poppy>=0.1.0
+poppy-py>=0.1.0

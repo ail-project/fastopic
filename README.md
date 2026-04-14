@@ -8,8 +8,6 @@ The repository includes:
 - Utilities to normalize and compile those dictionaries into `.poppy` Bloom filters
 - A small Flask API to query one or many Bloom filters
 
----
-
 ## How it works
 
 1. You maintain plain text files under `topic/` (one topic per line).
@@ -23,7 +21,6 @@ Because Bloom filters are probabilistic data structures, lookups are very fast a
 - `false` means **definitely not present**
 - `true` means **probably present** (possible false positives depending on configured FPP)
 
----
 
 ## Project structure
 
@@ -42,20 +39,17 @@ fastopic/
     └── combined.txt                 # Generated combined list (example artifact)
 ```
 
----
-
 ## Requirements
 
 - Python 3.10+
 - pip
+- poppy-py
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 1) Prepare / clean topic lists (optional but recommended)
 
@@ -71,8 +65,6 @@ Check mode (non-mutating, useful in CI):
 python tools/cleanup_topic_lists.py --topic-dir topic --check
 ```
 
----
-
 ## 2) Build bloom filters
 
 Generate `.poppy` filters from `topic/` into `bloomfilters/`:
@@ -87,8 +79,6 @@ This writes:
 - `bloomfilters/combined.txt` (all unique entries)
 - `bloomfilters/combined.poppy`
 
----
-
 ## 3) Run the API server
 
 ```bash
@@ -100,8 +90,6 @@ Optional debug mode:
 ```bash
 python server.py --filters-dir bloomfilters --debug
 ```
-
----
 
 ## API reference
 
@@ -143,8 +131,6 @@ Query membership for one topic.
 
 - `topic` (required)
 - `filter` (optional). If omitted, queries all filters.
-
----
 
 ## curl examples (API use cases)
 
@@ -192,15 +178,11 @@ curl -s -X POST \
 curl -i -s http://127.0.0.1:5000/api/query
 ```
 
----
-
 ## Notes on Bloom filter behavior
 
 - A positive match is probabilistic.
 - Tune `--fpp` in `create_bloomfilters.py` for your precision/sizing trade-off.
 - Rebuild filters whenever topic lists change.
-
----
 
 ## Typical workflow
 
