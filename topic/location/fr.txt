@@ -1,0 +1,109 @@
+adresse
+appartement
+au-dessus
+auberge
+autoroute
+autour
+avenue
+bachelor
+banlieue
+borne kilométrique
+boulevard
+boutique
+bungalow
+bureau
+bâtiment
+cabane
+camping
+carrefour
+case postale
+chalet
+code postal
+coin
+commerce
+condo
+cour
+croissant
+derrière
+domaine
+domicile
+drive
+duplex
+en bas
+en dessous
+en face de
+entre
+entrepôt
+entrée
+est
+expédition
+fenêtre
+ferme
+garage
+géorepérage
+géotag
+hall
+hôtel
+intersection
+itinéraire
+jonction
+latitude
+loin de
+longitude
+lot
+magasin
+maison
+maison en rangée
+maison mobile
+marches
+mews
+motel
+nord
+nord-est
+nord-ouest
+ouest
+parc de maisons mobiles
+parc de VR
+passé
+pays
+perron
+pièce
+place
+plantation
+porche
+portail
+porte
+promenade
+province
+près de
+pâté de maisons
+quadriplex
+ranch
+restaurant
+route
+rue
+ruelle
+région
+résidence
+sol
+sortie
+sous-sol
+stationnement
+sud
+sud-est
+sud-ouest
+suite
+triplex
+unité
+usine
+villa
+ville
+voie d'accès
+zone de chargement
+zone de réception
+à côté de
+à l'extérieur
+à l'intérieur
+à l'opposé
+à l'étage
+étage
