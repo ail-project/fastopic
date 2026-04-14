@@ -4,11 +4,15 @@
 from __future__ import annotations
 
 import argparse
+import re
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from flask import Flask, jsonify, request
+
+WORD_PATTERN = re.compile(r"[\w']+", flags=re.UNICODE)
 
 
 @dataclass
@@ -29,6 +33,28 @@ class BloomIndex:
     def query_many(self, topic: str, filter_names: list[str] | None = None) -> dict[str, bool]:
         names = filter_names or sorted(self.filters)
         return {name: self.query_one(name, topic) for name in names}
+
+
+def tokenize_text(text: str) -> list[str]:
+    return [match.group(0).lower() for match in WORD_PATTERN.finditer(text)]
+
+
+def summarize_matches(
+    bloom_index: BloomIndex,
+    tokens: list[str],
+    filter_names: list[str],
+    top_n: int,
+) -> dict[str, Any]:
+    token_counts = Counter(tokens)
+    match_counts = {
+        filter_name: sum(count for token, count in token_counts.items() if bloom_index.query_one(filter_name, token))
+        for filter_name in filter_names
+    }
+    top_filters = [
+        {"filter": filter_name, "count": count}
+        for filter_name, count in sorted(match_counts.items(), key=lambda item: (-item[1], item[0]))[:top_n]
+    ]
+    return {"filter_counts": match_counts, "top_filters": top_filters}
 
 
 def iter_bloom_files(filters_dir: Path) -> list[Path]:
@@ -144,6 +170,41 @@ def create_app(filters_dir: Path) -> Flask:
             filter_names = requested
 
         return jsonify({"topic": topic, "results": bloom_index.query_many(topic, filter_names)})
+
+    @app.post("/api/query-text")
+    def query_text() -> Any:
+        payload = request.get_json(silent=True) or {}
+        text = str(payload.get("text", ""))
+        requested = payload.get("filters")
+        top_n = payload.get("top_n", 10)
+
+        if not text.strip():
+            return jsonify({"error": "JSON body must include a non-empty 'text' value"}), 400
+        if not isinstance(top_n, int) or top_n < 1:
+            return jsonify({"error": "'top_n' must be a positive integer"}), 400
+
+        filter_names = sorted(bloom_index.filters)
+        if requested is not None:
+            if not isinstance(requested, list) or any(not isinstance(name, str) for name in requested):
+                return jsonify({"error": "'filters' must be an array of strings"}), 400
+            requested = [normalize_query_text(name) for name in requested]
+            missing = sorted(name for name in requested if name not in bloom_index.filters)
+            if missing:
+                return jsonify({"error": "Unknown filters", "unknown_filters": missing}), 404
+            filter_names = requested
+
+        tokens = tokenize_text(text)
+        summary = summarize_matches(bloom_index, tokens, filter_names, min(top_n, len(filter_names)))
+
+        return jsonify(
+            {
+                "text": text,
+                "token_count": len(tokens),
+                "unique_token_count": len(set(tokens)),
+                "analyzed_filters": filter_names,
+                **summary,
+            }
+        )
 
     return app
 
