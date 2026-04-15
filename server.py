@@ -47,8 +47,21 @@ def summarize_matches(
 ) -> dict[str, Any]:
     token_counts = Counter(tokens)
     total_tokens = len(tokens)
+    matching_tokens_by_filter: dict[str, list[tuple[str, int]]] = {}
+
+    for filter_name in filter_names:
+        matching_tokens = [
+            (token, count)
+            for token, count in token_counts.items()
+            if bloom_index.query_one(filter_name, token)
+        ]
+        matching_tokens_by_filter[filter_name] = sorted(
+            matching_tokens,
+            key=lambda item: (-item[1], item[0]),
+        )
+
     match_counts = {
-        filter_name: sum(count for token, count in token_counts.items() if bloom_index.query_one(filter_name, token))
+        filter_name: sum(count for _token, count in matching_tokens_by_filter[filter_name])
         for filter_name in filter_names
     }
     match_ratios = {
@@ -56,7 +69,15 @@ def summarize_matches(
         for filter_name, count in match_counts.items()
     }
     top_filters = [
-        {"filter": filter_name, "count": count, "ratio": match_ratios[filter_name]}
+        {
+            "filter": filter_name,
+            "count": count,
+            "ratio": match_ratios[filter_name],
+            "matching_words": [
+                {"word": token, "count": token_count}
+                for token, token_count in matching_tokens_by_filter[filter_name]
+            ],
+        }
         for filter_name, count in sorted(match_counts.items(), key=lambda item: (-item[1], item[0]))[:top_n]
     ]
     return {"filter_counts": match_counts, "filter_ratios": match_ratios, "top_filters": top_filters}
