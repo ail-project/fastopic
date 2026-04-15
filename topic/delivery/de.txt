@@ -1,0 +1,36 @@
+abgabe
+abholung
+auftragsabwicklung
+bestelllieferung
+expresslieferung
+geliefert
+geplante lieferung
+hauszustellung
+in zustellung
+internationale lieferung
+kaufzustellung
+kostenlose lieferung
+kurier
+kurierdienst
+letzte-meile-lieferung
+lieferfenster
+liefergebühr
+lieferkosten
+liefern
+lieferstatus
+lieferung
+lieferung am nächsten tag
+lieferung am selben tag
+lieferungen
+lieferverfolgung
+lokale lieferung
+marktlieferung
+paketlieferung
+paketzustellung
+sendung
+sendungen
+sendungsnummer
+standardlieferung
+versand
+verschiffung
+voraussichtliche lieferung

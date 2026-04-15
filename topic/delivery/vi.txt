@@ -1,0 +1,36 @@
+các lô hàng
+các lần giao hàng
+cước giao hàng
+dịch vụ chuyển phát
+giao
+giao bưu kiện
+giao chặng cuối
+giao dự kiến
+giao hàng
+giao hàng chợ
+giao hỏa tốc
+giao kiện hàng
+giao miễn phí
+giao mua hàng
+giao ngày hôm sau
+giao nội địa
+giao quốc tế
+giao theo lịch
+giao tiêu chuẩn
+giao trong ngày
+giao tận nhà
+giao đơn hàng
+hoàn tất đơn hàng
+khung giờ giao hàng
+lô hàng
+mã theo dõi
+nhân viên giao hàng
+nhận tại điểm
+phí giao hàng
+theo dõi giao hàng
+trạng thái giao hàng
+vận chuyển
+đang giao
+điều phối
+điểm gửi
+đã giao
