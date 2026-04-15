@@ -1,0 +1,16 @@
+codigo plus
+coordenada
+coordenadas
+geocodificacao
+geocodigo
+geodesico
+geohash
+geolocalizacao
+geometa
+geoponto
+gis
+gps
+latitude
+longitude
+mapa
+metadados espaciais

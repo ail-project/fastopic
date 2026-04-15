@@ -1,0 +1,17 @@
+geocode
+geocodierung
+geodatisch
+geohash
+geokoordinate
+geolokalisierung
+geometa
+geopunkt
+gis
+gps
+karte
+kartierung
+koordinate
+koordinaten
+latitude
+longitude
+raumliche metadaten

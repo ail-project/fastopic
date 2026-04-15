@@ -1,0 +1,17 @@
+coordinate
+coordinates
+geocode
+geocoding
+geodesic
+geohash
+geolocation
+geometa
+geopoint
+gis
+gps
+latitude
+longitude
+map
+mapping
+plus code
+spatial metadata

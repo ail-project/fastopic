@@ -1,0 +1,15 @@
+geocode
+geocoding
+geodesik
+geohash
+geolokasi
+geometa
+geopoin
+gis
+gps
+koordinat
+latitude
+longitude
+metadata spasial
+pemetaan
+peta

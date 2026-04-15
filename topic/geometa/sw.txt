@@ -1,0 +1,13 @@
+geohash
+gis
+gps
+jiodesiki
+jiolokesheni
+jiometa
+jiopointi
+kuratibu
+latitudo
+longitudo
+metadata ya anga
+ramani
+uratibu wa kijiografia
