@@ -116,6 +116,12 @@ Or using comma-separated codes:
 python tools/generate_geonames_topic.py BE,NL
 ```
 
+Or generate files for all countries listed in GeoNames `countryInfo.txt`:
+
+```bash
+python tools/generate_geonames_topic.py --all-countries
+```
+
 This downloads `https://download.geonames.org/export/dump/{COUNTRY}.zip`, reads `{COUNTRY}.txt`, and writes normalized variants (name + asciiname + alternatenames) to:
 
 - `topic/geonames/be.txt`

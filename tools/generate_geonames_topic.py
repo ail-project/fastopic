@@ -32,6 +32,22 @@ def parse_country_codes(raw_codes: list[str]) -> list[str]:
     return sorted(parsed)
 
 
+def parse_country_codes_from_country_info(content: bytes) -> list[str]:
+    parsed: set[str] = set()
+    with io.TextIOWrapper(io.BytesIO(content), encoding="utf-8") as text_stream:
+        for raw_line in text_stream:
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            columns = line.split("\t")
+            if not columns:
+                continue
+            code = columns[0].strip().upper()
+            if len(code) == 2 and code.isalpha():
+                parsed.add(code)
+    return sorted(parsed)
+
+
 def normalize_variant(value: str) -> str:
     return " ".join(value.strip().lower().split())
 
@@ -59,6 +75,17 @@ def extract_variants_from_geonames_bytes(content: bytes) -> set[str]:
 
 def download_country_zip(country_code: str, base_url: str) -> bytes:
     url = f"{base_url.rstrip('/')}/{country_code}.zip"
+    try:
+        with urllib.request.urlopen(url) as response:
+            return response.read()
+    except urllib.error.HTTPError as exc:  # pragma: no cover - network path
+        raise RuntimeError(f"Failed to download {url}: HTTP {exc.code}") from exc
+    except urllib.error.URLError as exc:  # pragma: no cover - network path
+        raise RuntimeError(f"Failed to download {url}: {exc.reason}") from exc
+
+
+def download_country_info(base_url: str) -> bytes:
+    url = f"{base_url.rstrip('/')}/countryInfo.txt"
     try:
         with urllib.request.urlopen(url) as response:
             return response.read()
@@ -97,8 +124,16 @@ def main() -> int:
     )
     parser.add_argument(
         "country_codes",
-        nargs="+",
+        nargs="*",
         help="ISO country codes (space and/or comma separated), e.g. 'BE NL' or 'BE,NL'",
+    )
+    parser.add_argument(
+        "--all-countries",
+        action="store_true",
+        help=(
+            "Process all available country codes from GeoNames countryInfo.txt. "
+            "If set, positional country_codes are ignored."
+        ),
     )
     parser.add_argument(
         "--output-dir",
@@ -113,10 +148,18 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    try:
-        country_codes = parse_country_codes(args.country_codes)
-    except ValueError as exc:
-        parser.error(str(exc))
+    if args.all_countries:
+        country_info_payload = download_country_info(args.base_url)
+        country_codes = parse_country_codes_from_country_info(country_info_payload)
+        if not country_codes:
+            parser.error("No country codes found in countryInfo.txt")
+    else:
+        if not args.country_codes:
+            parser.error("Provide country_codes or use --all-countries")
+        try:
+            country_codes = parse_country_codes(args.country_codes)
+        except ValueError as exc:
+            parser.error(str(exc))
 
     for country_code in country_codes:
         zip_payload = download_country_zip(country_code, args.base_url)
