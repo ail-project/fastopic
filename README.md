@@ -101,6 +101,26 @@ Context extraction tuning (for `/api/query-text`):
 - `--context-min-ratio` (default `0.05`): minimum matched-token ratio in a filter before context extraction is emitted.
 - `--context-window-words` (default `10`): words included before and after each matching token.
 
+
+## 4) Generate GeoNames country topic files
+
+You can create a dedicated `geonames` topic (one file per country) from the official GeoNames country ZIP dumps:
+
+```bash
+python tools/generate_geonames_topic.py BE NL
+```
+
+Or using comma-separated codes:
+
+```bash
+python tools/generate_geonames_topic.py BE,NL
+```
+
+This downloads `https://download.geonames.org/export/dump/{COUNTRY}.zip`, reads `{COUNTRY}.txt`, and writes normalized variants (name + asciiname + alternatenames) to:
+
+- `topic/geonames/be.txt`
+- `topic/geonames/nl.txt`
+
 ## API reference
 
 Base URL (local): `http://127.0.0.1:5000`
