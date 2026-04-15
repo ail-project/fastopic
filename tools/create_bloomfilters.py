@@ -54,6 +54,11 @@ def main() -> int:
         default=0.001,
         help="False positive probability for generated bloom filters (default: 0.001)",
     )
+    parser.add_argument(
+        "--skip-combined-list",
+        action="store_true",
+        help="Skip writing bloomfilters/combined.txt (default: write combined list)",
+    )
     args = parser.parse_args()
 
     if not args.topic_dir.exists() or not args.topic_dir.is_dir():
@@ -78,9 +83,10 @@ def main() -> int:
         print(target_path.as_posix())
 
     combined_sorted = sorted(combined_entries, key=lambda value: value.casefold())
-    combined_list_path = args.output_dir / "combined.txt"
-    combined_list_path.write_text("\n".join(combined_sorted) + "\n", encoding="utf-8")
-    print(combined_list_path.as_posix())
+    if not args.skip_combined_list:
+        combined_list_path = args.output_dir / "combined.txt"
+        combined_list_path.write_text("\n".join(combined_sorted) + "\n", encoding="utf-8")
+        print(combined_list_path.as_posix())
 
     combined_filter = build_filter(combined_sorted, args.fpp)
     combined_filter_path = args.output_dir / "combined.poppy"
