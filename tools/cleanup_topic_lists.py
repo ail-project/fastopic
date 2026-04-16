@@ -7,16 +7,22 @@ import argparse
 from pathlib import Path
 
 
-def normalize_lines(text: str) -> list[str]:
+def normalize_lines(text: str, remove_numeric_only: bool = False) -> list[str]:
     lines = [line.strip().lower() for line in text.splitlines()]
     lines = [line for line in lines if line]
+    if remove_numeric_only:
+        lines = [line for line in lines if not line.isnumeric()]
     unique_lines = sorted(set(lines), key=lambda value: value.casefold())
     return unique_lines
 
 
-def normalize_file(path: Path, check_only: bool = False) -> bool:
+def normalize_file(
+    path: Path,
+    check_only: bool = False,
+    remove_numeric_only: bool = False,
+) -> bool:
     original = path.read_text(encoding="utf-8")
-    normalized_lines = normalize_lines(original)
+    normalized_lines = normalize_lines(original, remove_numeric_only=remove_numeric_only)
     normalized = "\n".join(normalized_lines) + "\n"
     if original == normalized:
         return False
@@ -47,6 +53,11 @@ def main() -> int:
         action="store_true",
         help="Only check whether files need updates; do not modify files.",
     )
+    parser.add_argument(
+        "--remove-numeric-only",
+        action="store_true",
+        help="Remove entries that contain only numeric characters.",
+    )
     args = parser.parse_args()
 
     topic_dir: Path = args.topic_dir
@@ -55,7 +66,11 @@ def main() -> int:
 
     changed_files: list[Path] = []
     for file_path in iter_topic_files(topic_dir):
-        if normalize_file(file_path, check_only=args.check):
+        if normalize_file(
+            file_path,
+            check_only=args.check,
+            remove_numeric_only=args.remove_numeric_only,
+        ):
             changed_files.append(file_path)
 
     for file_path in changed_files:
