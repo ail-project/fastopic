@@ -1,2 +1,4 @@
 flask>=3.0.0
 poppy-py>=0.1.0
+stopwordsiso>=0.6.1
+setuptools>=68.0.0,<81
