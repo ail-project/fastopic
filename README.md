@@ -38,6 +38,7 @@ fastopic/
 │       └── fr.txt
 ├── tools/
 │   ├── cleanup_topic_lists.py       # Normalize/sort/dedupe topic files
+│   ├── remove_stopwords_topic_lists.py  # Remove language-specific stop words
 │   └── create_bloomfilters.py       # Build .poppy files + combined outputs
 └── bloomfilters/
     └── combined.txt                 # Generated combined list (example artifact)
@@ -67,6 +68,18 @@ Check mode (non-mutating, useful in CI):
 
 ```bash
 python tools/cleanup_topic_lists.py --topic-dir topic --check
+```
+
+Remove language-specific stop words from topic files:
+
+```bash
+python tools/remove_stopwords_topic_lists.py --topic-dir topic
+```
+
+Check mode (non-mutating, useful in CI):
+
+```bash
+python tools/remove_stopwords_topic_lists.py --topic-dir topic --check
 ```
 
 ## 2) Build bloom filters
